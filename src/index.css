@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.job-container {
+  @apply px-4 md:px-20 py-2 md:py-4 bg-indigo-100;
+}
+
+.header {
+  @apply py-2 md:py-0 md:p-8 rounded-lg
+}
+
+.nav-link {
+  @apply text-sm font-bold;
+}
+
+.nav-link-inactive {
+  @apply text-sm text-blue-700 font-bold;
+}
