@@ -1,8 +1,8 @@
 {
   "jobs": [
     {
-      "id": 1,
-      "company_logo": "https://i.ibb.co/zPRxQMr/netflix-4-1.png",
+      "id": "1a-2b-3c",
+      "logo": "https://i.ibb.co/zPRxQMr/netflix-4-1.png",
       "job_title": "Software Engineer",
       "company_name": "Netflix",
       "remote_or_onsite": "Remote",
@@ -21,8 +21,8 @@
       ]
     },
     {
-      "id": 2,
-      "company_logo": "https://i.ibb.co/sJCfcqZ/tesla-9-1.png",
+      "id": "2b-3c-4d",
+      "logo": "https://i.ibb.co/sJCfcqZ/tesla-9-1.png",
       "job_title": "UX Designer",
       "company_name": "Tesla",
       "remote_or_onsite": "Onsite",
@@ -41,10 +41,10 @@
       ]
     },
     {
-      "id": 3,
-      "company_logo": "https://i.ibb.co/4JjNgDm/microsoft.png",
+      "id": "3c-4d-5e",
+      "logo": "https://i.ibb.co/zPRxQMr/netflix-4-1.png",
       "job_title": "Data Scientist",
-      "company_name": "Microsoft",
+      "company_name": "Netflix",
       "remote_or_onsite": "Remote",
       "location": "Seattle, WA",
       "fulltime_or_parttime": "Full-time",
@@ -61,19 +61,19 @@
       ]
     },
     {
-      "id": 4,
-      "companyLogo": "https://i.ibb.co/YPPVYN5/amazon.png",
-      "jobTitle": "Data Scientist",
-      "companyName": "Amazon",
-      "remoteOrOnsite": "Remote",
+      "id": "4d-5e-6f",
+      "logo": "https://i.ibb.co/Zz8k1zy/google-1-1-1-1.png",
+      "job_title": "Data Scientist",
+      "company_name": "Google",
+      "remote_or_onsite": "Remote",
       "location": "Seattle, WA",
-      "fulltimeOrPartTime": "Full-time",
+      "fulltime_or_parttime": "Full-time",
       "salary": "$120,000 - $180,000",
-      "jobDescription": "We are looking for a data scientist to join our team and help us drive insights and inform business decisions using data.",
-      "jobResponsibility": "Collect, process, and analyze large datasets, build statistical models and machine learning algorithms, communicate findings to business stakeholders.",
-      "educationalRequirements": "Master's or PhD in Computer Science, Statistics, Mathematics, or related field",
+      "job_description": "We are looking for a data scientist to join our team and help us drive insights and inform business decisions using data.",
+      "job_responsibility": "Collect, process, and analyze large datasets, build statistical models and machine learning algorithms, communicate findings to business stakeholders.",
+      "educational_requirements": "Master's or PhD in Computer Science, Statistics, Mathematics, or related field",
       "experiences": "2+ years of experience in data science",
-      "contactInformation": {
+      "contact_information": {
         "phone": "555-9012",
         "email": [
           "hr@amazon.com",
@@ -82,19 +82,19 @@
       }
     },
     {
-      "id": 5,
-      "companyLogo": "https://i.ibb.co/PNP4hz4/apple.png",
-      "jobTitle": "UI/UX Designer",
-      "companyName": "Apple",
-      "remoteOrOnsite": "Onsite",
+      "id": "5e-6f-7g",
+      "logo": "https://i.ibb.co/Zz8k1zy/google-1-1-1-1.png",
+      "job_title": "UI/UX Designer",
+      "company_name": "Google",
+      "remote_or_onsite": "Onsite",
       "location": "Cupertino, CA",
-      "fulltimeOrPartTime": "Full-time",
+      "fulltime_or_parttime": "Full-time",
       "salary": "$120,000 - $150,000",
-      "jobDescription": "We are seeking a talented UI/UX designer to help us create beautiful, intuitive user interfaces for our software products.",
-      "jobResponsibility": "Collaborate with product managers and engineers to design and prototype user interfaces, conduct user research and usability testing to ensure user needs are met.",
-      "educationalRequirements": "Bachelor's or Master's degree in Design, Human-Computer Interaction or related field",
+      "job_description": "We are seeking a talented UI/UX designer to help us create beautiful, intuitive user interfaces for our software products.",
+      "job_responsibility": "Collaborate with product managers and engineers to design and prototype user interfaces, conduct user research and usability testing to ensure user needs are met.",
+      "educational_requirements": "Bachelor's or Master's degree in Design, Human-Computer Interaction or related field",
       "experiences": "3+ years of experience in UI/UX design",
-      "contactInformation": {
+      "contact_information": {
         "phone": "555-5678",
         "email": [
           "hr@apple.com",
@@ -103,19 +103,19 @@
       }
     },
     {
-      "id": 6,
-      "companyLogo": "https://i.ibb.co/Zz8k1zy/google-1-1-1-1.png",
-      "jobTitle": "Senior Software Engineer",
-      "companyName": "Google",
-      "remoteOrOnsite": "Remote",
+      "id": "6f-7g-8h",
+      "logo": "https://i.ibb.co/sJCfcqZ/tesla-9-1.png",
+      "job_title": "Senior Software Engineer",
+      "company_name": "Tesla",
+      "remote_or_onsite": "Remote",
       "location": "Mountain View, CA",
-      "fulltimeOrPartTime": "Full-time",
+      "fulltime_or_parttime": "Full-time",
       "salary": "$150,000 - $200,000",
-      "jobDescription": "We are looking for a highly skilled software engineer to join our team and help us develop cutting-edge software products.",
-      "jobResponsibility": "Design, develop, and maintain software applications and services, collaborate with cross-functional teams to identify and solve complex software problems.",
-      "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+      "job_description": "We are looking for a highly skilled software engineer to join our team and help us develop cutting-edge software products.",
+      "job_responsibility": "Design, develop, and maintain software applications and services, collaborate with cross-functional teams to identify and solve complex software problems.",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
       "experiences": "5+ years of experience in software engineering",
-      "contactInformation": {
+      "contact_information": {
         "phone": "555-1234",
         "email": [
           "hr@google.com",

@@ -24,3 +24,7 @@
 .nav-link-inactive {
   @apply text-sm text-blue-700 font-bold;
 }
+
+.job-btn {
+  @apply mt-5 btn btn-primary bg-gradient-to-r from-blue-600 to-indigo-500 text-white rounded-md
+}

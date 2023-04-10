@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import JobCategories from '../JobCategories/JobCategories';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
+import { useLoaderData } from 'react-router-dom';
+import { AvailableJobContext } from '../Layout/Main';
 
 const Home = () => {
+  const availableJobsFromLoader = useLoaderData();
+
+  const [availableJobs, setAvailableJobs] = useContext(AvailableJobContext);
+
+  
+  useEffect(() => {
+    setAvailableJobs(availableJobsFromLoader);
+  }, [availableJobsFromLoader, setAvailableJobs]);
+
   return (
     <div>
       <div className='home-container'>
@@ -15,7 +26,7 @@ const Home = () => {
               <p>
                 Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.
               </p>
-              <button className='mt-5 btn btn-primary bg-gradient-to-r from-blue-600 to-indigo-500 text-white rounded-md'>Get Started</button>
+              <button className='job-btn'>Get Started</button>
             </div>
           </div>
           <div className='mx-auto col-span-2'>
