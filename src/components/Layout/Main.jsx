@@ -9,19 +9,6 @@ const Main = () => {
   const [availableJobs, setAvailableJobs] = useState([]);
   const [appliedJobs, setAppliedJobs] = useState([]);
 
-  // const jobsLoader = async () => {
-  //   const res = await fetch('job.json');
-  //   const data = await res.json();
-  //   return data.jobs;
-  // };
-
-  // useEffect(() => {
-  //   const loadCategories = async () => {
-  //     const jobData = await jobsLoader();
-  //     setAvailableJobs(jobData);
-  //   };
-  //   loadCategories();
-  // }, []);
 
   return (
     <>

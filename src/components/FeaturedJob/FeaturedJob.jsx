@@ -1,9 +1,9 @@
 import React from 'react';
-import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid'
+import { MapPinIcon, CurrencyBangladeshiIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const FeaturedJob = ({ showedJob }) => {
-  const { logo, job_title, company_name, remote_or_onsite, fulltime_or_parttime, location, salary } = showedJob;
-  console.log(job_title);
+  const { id, logo, job_title, company_name, remote_or_onsite, fulltime_or_parttime, location, salary } = showedJob;
   return (
     <div className='border rounded-md p-5 drop-shadow-sm	flex flex-col'>
       <div className=''>
@@ -17,14 +17,17 @@ const FeaturedJob = ({ showedJob }) => {
       </div>
       <div className='flex gap-3'>
         <div className='flex items-center'>
-        <MapPinIcon className="h-5 w-5 text-gray-500" />
-        <p className='text-sm text-gray-500'>{location}</p>
+          <MapPinIcon className="h-5 w-5 text-gray-500" />
+          <p className='text-sm text-gray-500'>{location}</p>
         </div>
         <div className='flex items-center'>
-        <CurrencyDollarIcon className="h-5 w-5 text-gray-500" />
-        <p className='text-sm text-gray-500'>{salary}</p>
+          <CurrencyBangladeshiIcon className="h-5 w-5 text-gray-500" />
+          <p className='text-sm text-gray-500'>{salary}</p>
         </div>
       </div>
+      <Link to={`job-details/${id}`}>
+        <button className='job-details-btn'>View Details</button>
+      </Link>
     </div>
   );
 };
