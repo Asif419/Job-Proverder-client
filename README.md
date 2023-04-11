@@ -1,14 +1,14 @@
 # Job Hunter
 ## _Programming Hero Assignment 9_
 
-This is a react procjet with react router and tailwind css. The main features of this website are: 
+This is a react project with react router and tailwind css. The main features of this website are: 
 
 ## Features
 
 - Find job
 - Check featured jobs and find available jobs for different categories
 - Apply for jobs 
-- Show appled jobs list 
+- Show applied jobs list 
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
