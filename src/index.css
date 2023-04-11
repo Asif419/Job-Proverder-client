@@ -32,6 +32,10 @@
   @apply mt-5 btn btn-primary bg-gradient-to-r from-blue-600 to-indigo-500 text-white rounded-md
 }
 
+.job-btn-two {
+  @apply mt-5 btn btn-primary bg-gradient-to-r from-orange-600 to-amber-800 text-white rounded-md
+}
+
 .job-details-btn {
   @apply mt-5 py-1 w-2/6 bg-gradient-to-r from-blue-600 to-indigo-500 text-white rounded-md
 }
