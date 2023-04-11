@@ -19,7 +19,7 @@ const Main = () => {
           <Outlet></Outlet>
         </AppliedJobContext.Provider>
       </AvailableJobContext.Provider>
-      <Toaster />
+      <Toaster position="top-right"/>
     </>
   );
 };

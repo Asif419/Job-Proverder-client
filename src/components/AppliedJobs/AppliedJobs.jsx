@@ -17,7 +17,6 @@ const AppliedJobs = () => {
   useEffect(() => {
     const appliedListsDb = getAppliedList();
     const fakeAppliedJob = [];
-    if (appliedJobs.length == 0) {
       for (const id in appliedListsDb) {
         const job = availableJobs.find(availableJob => availableJob.id === id);
         if (job) {
@@ -25,11 +24,9 @@ const AppliedJobs = () => {
         }
       }
       setAppliedJobs(fakeAppliedJob);
-    }
   }, [availableJobs]);
 
   useEffect(() => {
-    // console.log('remote', remoteJob, 'onsite', onSiteJob)
     if (!remoteJob && !onSiteJob) {
       setViewType('all')
     }
@@ -54,15 +51,13 @@ const AppliedJobs = () => {
       const fakeShownJobs = appliedJobs.filter(aj => aj.remote_or_onsite == 'Onsite');
       setShownJobs(fakeShownJobs);
     }
-  }, [viewType, appliedJobs])
+  }, [viewType, appliedJobs, availableJobs])
 
-  // console.log(shownJobs);
-  console.log(shownJobs);
 
   return (
     <div>
       <Banner>Applied Jobs</Banner>
-      <div className='flex flex-col gap-3 details-container'>
+      <div className='flex flex-col gap-3 details-container mt-5 md:mt-10'>
         <div className='flex justify-center md:justify-end gap-2'>
           <button onClick={() => {
             setRemoteJob(!remoteJob)
@@ -74,12 +69,16 @@ const AppliedJobs = () => {
             remoteJob ? setRemoteJob(!remoteJob) : ''
           }} className={onSiteJob ? 'applied-job-btn-active' : 'applied-job-btn'}>Onsite Jobs</button>
         </div>
-        <div>
+        <div className='flex flex-col gap-3'>
           {
-            shownJobs.map(shownJob => <AppliedJob
+            (shownJobs.length > 0) ? (
+              shownJobs.map(shownJob => <AppliedJob
               key={shownJob.id}
               shownJob={shownJob}
-            ></AppliedJob>)
+              ></AppliedJob>)
+            ) : (
+              <h3>No application</h3>
+            )
           }
         </div>
       </div>
