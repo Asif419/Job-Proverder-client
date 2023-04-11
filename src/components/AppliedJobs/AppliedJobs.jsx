@@ -17,13 +17,13 @@ const AppliedJobs = () => {
   useEffect(() => {
     const appliedListsDb = getAppliedList();
     const fakeAppliedJob = [];
-      for (const id in appliedListsDb) {
-        const job = availableJobs.find(availableJob => availableJob.id === id);
-        if (job) {
-          fakeAppliedJob.push(job);
-        }
+    for (const id in appliedListsDb) {
+      const job = availableJobs.find(availableJob => availableJob.id === id);
+      if (job) {
+        fakeAppliedJob.push(job);
       }
-      setAppliedJobs(fakeAppliedJob);
+    }
+    setAppliedJobs(fakeAppliedJob);
   }, [availableJobs]);
 
   useEffect(() => {
@@ -73,11 +73,13 @@ const AppliedJobs = () => {
           {
             (shownJobs.length > 0) ? (
               shownJobs.map(shownJob => <AppliedJob
-              key={shownJob.id}
-              shownJob={shownJob}
+                key={shownJob.id}
+                shownJob={shownJob}
               ></AppliedJob>)
             ) : (
-              <h3>No application</h3>
+              <div className='mx-auto mt-[10vh] border text-indigo-500 border-indigo-700 drop-shadow-sm p-5 rounded-md'>
+                <p>No applications are available</p>
+              </div>
             )
           }
         </div>

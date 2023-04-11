@@ -3,17 +3,21 @@
 @tailwind utilities;
 
 .job-container {
-  @apply px-4 md:px-56 py-2 md:py-4 bg-indigo-50;
+  @apply px-4 md:px-56 py-2 md:py-4 bg-indigo-50
 }
 .home-container {
-  @apply px-4 md:px-56 pt-2 md:pt-4 bg-indigo-50;
+  @apply px-4 md:px-56 pt-2 md:pt-4 bg-indigo-50
+}
+
+.footer-container {
+  @apply px-4 md:px-56
 }
 
 .category-container {
-  @apply px-4 md:px-64 pt-2 md:pt-4;
+  @apply px-4 md:px-64 pt-2 md:pt-4
 }
 .details-container {
-  @apply px-4 md:px-64 pt-2 md:pt-4;
+  @apply px-4 md:px-64 pt-2 md:pt-4
 }
 
 .header {
@@ -25,7 +29,7 @@
 }
 
 .nav-link-inactive {
-  @apply text-sm text-blue-700 font-bold;
+  @apply text-sm text-blue-700 font-bold
 }
 
 .job-btn {
