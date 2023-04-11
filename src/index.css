@@ -45,11 +45,11 @@
 }
 
 .applied-job-btn {
-  @apply border border-indigo-400 p-2 rounded-md bg-indigo-50 text-indigo-800 text-sm hover:bg-indigo-200 hover:text-indigo-900
+  @apply border border-indigo-400 p-2 rounded-md bg-indigo-50 text-indigo-800 text-sm
 }
 
 .applied-job-btn-active {
-  @apply border border-indigo-400 p-2 rounded-md bg-indigo-500 text-slate-950 text-sm hover:bg-indigo-200 hover:text-indigo-900
+  @apply border border-indigo-400 p-2 rounded-md bg-indigo-800 text-white text-sm
 }
 
 .job-type-btn {

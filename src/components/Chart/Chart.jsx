@@ -19,7 +19,7 @@ const Chart = ({ marks }) => {
     }
     return null;
   }
-
+  
   return (
     <ResponsiveContainer width="100%" height={400}>
       <PieChart>
@@ -31,7 +31,7 @@ const Chart = ({ marks }) => {
           cy="50%"
           outerRadius={120}
           label={renderLabel}
-          fill='#4B0082'
+          fill='#4338CA'
         />
         <Tooltip content={renderTooltip} />
       </PieChart>

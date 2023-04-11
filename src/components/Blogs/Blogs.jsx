@@ -1,9 +1,11 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
 
 const Blogs = () => {
   return (
     <div>
-      <h2>blogs</h2>
+      <Banner>Blogs</Banner>
+      
     </div>
   );
 };
