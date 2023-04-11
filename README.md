@@ -3,6 +3,10 @@
 
 This is a react project with react router and tailwind css. The main features of this website are: 
 
+## Live Link
+> https://job-provider.netlify.app   
+full project will be available here
+
 ## Features
 
 - Find job
@@ -32,10 +36,6 @@ All functionalities are shown here:
 - Onsite jobs (Applied jobs) - From applied jobs which are onsite, those jobs will be shown. If there aren't any it will show 'no job application yet'
 - View details (inside applied jobs page) - show details information for a job.
 - Applied - You will be informed by a toast that you already submitted
-
-## Live Link
-> https://job-provider.netlify.app   
-full project will be available here
 
 ## License From
 
