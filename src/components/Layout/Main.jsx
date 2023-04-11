@@ -2,7 +2,6 @@ import React, { createContext, useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import { Outlet } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
-import { getAppliedList } from '../Utilities/Fakedb';
 import Footer from '../Footer/Footer';
 
 export const AppliedJobContext = createContext([]);

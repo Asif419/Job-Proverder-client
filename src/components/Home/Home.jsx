@@ -4,7 +4,6 @@ import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 import { useLoaderData } from 'react-router-dom';
 import { AppliedJobContext, AvailableJobContext } from '../Layout/Main';
 import HomeBanner from '../HomeBanner/HomeBanner';
-import { getAppliedList } from '../Utilities/Fakedb';
 
 const Home = () => {
   const availableJobsFromLoader = useLoaderData();

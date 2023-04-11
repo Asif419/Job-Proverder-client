@@ -5,7 +5,6 @@ import Question from '../Question/Question';
 
 const Blogs = () => {
   const questions = useLoaderData();
-  console.log(questions);
   return (
     <div className=''>
       <Banner>Blogs</Banner>
