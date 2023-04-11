@@ -35,3 +35,11 @@
 .job-details-btn {
   @apply mt-5 py-1 w-2/6 bg-gradient-to-r from-blue-600 to-indigo-500 text-white rounded-md
 }
+
+.applied-job-btn {
+  @apply border border-indigo-400 p-2 rounded-md bg-indigo-50 text-indigo-800 text-sm hover:bg-indigo-200 hover:text-indigo-900
+}
+
+.applied-job-btn-active {
+  @apply border border-indigo-400 p-2 rounded-md bg-indigo-500 text-slate-950 text-sm hover:bg-indigo-200 hover:text-indigo-900
+}
