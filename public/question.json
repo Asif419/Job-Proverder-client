@@ -2,21 +2,21 @@
   {
     "id": "1a",
     "question": "When should you use context API?",
-    "answer": "Paris"
+    "answer": "When it's necessary to share state between components, we can use context API, Without context API we can use props drilling, but it's tough to pass data among multiple component by using props. So to solve this problem we can use context API"
   },
   {
     "id": "2b",
     "question": "What is a custom hook?",
-    "answer": "Jupiter"
+    "answer": "We know that Hooks are reusable functions. We create custom hooks instead writing same code again and again. To create a hook we use word 'Use'. Though there are some rules to use Hooks."
   },
   {
     "id": "3c",
     "question": "What is useRef?",
-    "answer": "Leonardo da Vinci"
+    "answer": "This hook allows us to persist data renders. To store mutable value and it does not create any re-render while updating. It also used to access direct DOM element"
   },
   {
     "id": "4d",
     "question": "What is useMemo?",
-    "answer": "100 degrees Celsius"
+    "answer": "This react hook give us power to cache the result of calculation between re-renders. It also prevent useless re-renders when props (current and previous) are same or equal."
   }
 ]
