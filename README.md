@@ -1,13 +1,14 @@
 # Job Hunter
 ## _Programming Hero Assignment 9_
 
-This is a react project with react router and tailwind css. The main features of this website are: 
-
 ## Live Link
 > https://job-provider.netlify.app   
 full project will be available here
 
+
+
 ## Features
+This is a react project with react router and tailwind css. The main features of this website are: 
 
 - Find job
 - Check featured jobs and find available jobs for different categories
