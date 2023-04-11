@@ -9,7 +9,7 @@ const JobCategory = ({ category }) => {
       </div>
       <div>
         <p className='font-semibold text-black'>{name}</p>
-        <p className='text-xs'>{jobs_available} Jobs Available</p>
+        <p className='text-xs mt-1'>{jobs_available} Jobs Available</p>
       </div>
     </div>
   );
