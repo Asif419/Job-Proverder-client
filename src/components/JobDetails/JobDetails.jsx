@@ -57,6 +57,7 @@ const JobDetails = ({applied}) => {
                 <p className='text-sm text-gray-500'>
                   <span className='font-bold px-2'>Salary:</span>
                   <span>{salary}</span>
+                  <span className=''> (per month)</span>
                 </p>
               </div>
               <div className='flex items-center mt-2'>
